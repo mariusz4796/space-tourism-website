@@ -1,1 +1,63 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.logo {
+  position: absolute;
+  top: 3%;
+  left: 6%;
+  width: 35px;
+  height: 35px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.burger-btn {
+  position: absolute;
+  top: 4%;
+  right: 6%;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+.burger-btn img {
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/home/background-home-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .container main {
+  width: 90%;
+  height: 50%;
+  color: #9fa4c1;
+}
+/*# sourceMappingURL=styles.css.map */
